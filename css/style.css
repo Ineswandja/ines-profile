@@ -1,0 +1,151 @@
+
+/* Colors and fonts */
+
+body {
+	background-color: : #FEEAFA;
+	color : #39304A;
+	font-family: 'Crimson Text', serif ;
+	font-size: 20px;
+	font-weight:lighter;
+
+}
+
+h1,h2,h3{
+		font-family : 'Roboto', sans-serif; 
+		font-weight : bold;
+}
+
+h1{
+	color: #754668;
+	font-family : 'Roboto', sans-serif; 
+	font-size: 30px;
+	font-weight:900;
+	letter-spacing: 2px;
+}
+
+h2{
+	color:  #A74482;
+	font-family : 'Roboto', sans-serif; 
+	font-size: 22px;
+	font-weight:500;
+	;
+
+}
+
+a{
+	text-decoration: none;
+	color : #B4869F;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight:600;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color : #A74482;
+	text-decoration: none;
+}
+
+/* DIVISIONS DESIGN */
+.container{	
+	display:block;
+	padding:10%;
+	background-color: #FEEAFA
+
+}
+
+.card-white{
+	width:50%;
+    background: white;
+    padding: 60px ;
+    margin: 50px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    }
+
+ /*text formating */
+
+.text-justified{
+	text-align: justify;
+  }
+
+ #introduction p{
+ 	margin-bottom:40px;
+ }
+
+ul{
+	text-align: justify;
+}
+
+  /* IMAGE FORMATTING */
+  .img-circle{
+  	border-radius:50%;
+  	height: auto;
+  	width: auto;
+  	max-width:200 px;
+  	max-height: 200px;
+  	text-align:center;
+  }
+
+  /* BUTTON DESIGN */
+
+ .btn-pink{
+ 	background-color: #A74482;
+ 	color:white;
+ 	padding:15px 20px ;
+ 	border-radius: 4px;
+ }
+ 
+ .btn-pink:hover{
+ 	background-color: #754668;
+ 	color:white;
+ }
+
+/* LIST */
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	text-align:center;
+
+}
+
+.list-inline>li{
+	display:inline;
+	padding: 0px 20px;
+}
+
+/* LISTS IN LINE */
+.list-inline i {
+	font-size:50px
+	color:#A74482;
+	;
+}
+
+.list-inline i:hover {
+	font-size:50px
+	color:#754668;
+	;
+}
+
+
+
+/* RESPONSIVE DESIGN 
+@media(max-width : 960px) {
+	.container{
+		width:700px;
+	}
+}
+
+@media(max-width:720px) {
+	.container{
+		width:500px;
+	}
+}
+
+@media (max-width:540px){
+	container{
+		width:300px;
+	}
+}
+*/
